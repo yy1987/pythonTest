@@ -48,7 +48,7 @@ print(s1 | s2) #并集
 
 
 
-
+print('git')
 
 
 
