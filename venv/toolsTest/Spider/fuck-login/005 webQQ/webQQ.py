@@ -89,7 +89,7 @@ def waitForLogin():
     '''
     # 66:未失效 65:已失效  67:二维码认证中 0:登录成功
     # 0:
-    return ptuiCB('0','0','http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=479531993&service=ptqrlogin&nodirect=0&ptsigx=f89bb6133db7b0438b8f62e73e84f370b7af02c43ae56e10cbbc175efce54e822fdbd45350356f9b27ce465535ac10ad9cd2195becd7d0f6c3218f5f2e14ce34&s_url=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&f_url=&ptlang=2052&ptredirect=100&aid=501004106&daid=164&j_later=0&low_login_hour=0&regmaster=0&pt_login_type=3&pt_aid=0&pt_aaid=16&pt_light=0&pt_3rd_aid=0','0','登录成功！', '阿新');
+    return ptuiCB('0','0','http://ptlogin4.web2.qq.com/check_sig?pttype=1&uin=479531993&service=ptqrlogin&nodirect=0&ptsigx=f89bb6133db7b0438b8f62e73e84f370b7af02c43ae56e10cbbc175efce54e822fdbd45350356f9b27ce465535ac10ad9cd2195becd7d0f6c3218f5f2e14ce34&s_url=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&f_url=&ptlang=2052&ptredirect=100&aid=501004106&daid=164&j_later=0&low_login_hour=0&regmain=0&pt_login_type=3&pt_aid=0&pt_aaid=16&pt_light=0&pt_3rd_aid=0','0','登录成功！', '阿新');
     '''
     code = res[0]
     if code == '67' :
