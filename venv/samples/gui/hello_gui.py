@@ -5,8 +5,8 @@ from tkinter import *
 import tkinter.messagebox as messagebox
 
 class Application(Frame):
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
+    def __init__(self, main=None):
+        Frame.__init__(self, main)
         self.pack()
         self.createWidgets()
 
@@ -22,6 +22,6 @@ class Application(Frame):
 
 app = Application()
 # 设置窗口标题:
-app.master.title('Hello World')
+app.main.title('Hello World')
 # 主消息循环:
 app.mainloop()
